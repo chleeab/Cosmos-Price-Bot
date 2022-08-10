@@ -10,7 +10,7 @@ const client = new Client({ intents: myIntents });
 dotenv.config()
 const token = process.env.TOKEN
 const clientId = process.env.CLIENTID
-const guildId = process.env.GUILDID_DEV
+const guildId = process.env.GUILDID
 let huahuaPrice = ""
 const cooldown = new Set();
 ///This is 1 minute, you can change it to whatever value
